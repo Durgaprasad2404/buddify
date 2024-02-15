@@ -1,4 +1,6 @@
 import React from "react";
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Contact() {
   return (
@@ -19,7 +21,7 @@ function Contact() {
             required
             className="contact-input"
           />
-          <button type="button" className="contact-button px-3">
+          <button type="button" className="contact-button px-3 mx-2">
             Join
           </button>
         </div>
@@ -38,13 +40,28 @@ function Contact() {
         </ul>
       </div>
       <div className="contact-con3 p-2">
-        <h2>Follow Us</h2>
+        <h2 className="ms-4">Follow Us</h2>
         <ul className="list-items">
-          <li className="my-2">Facebook</li>
-          <li className="my-2">Instagram</li>
-          <li className="my-2">Twitter</li>
-          <li className="my-2">Linkedin</li>
-          <li className="my-2">YouTube</li>
+          <li className="my-2">
+            <FaFacebook className="mx-2 facebook" />
+            Facebook
+          </li>
+          <li className="my-2">
+            <FaInstagram className="mx-2 instagram" />
+            Instagram
+          </li>
+          <li className="my-2">
+            <FaXTwitter className="mx-2" />
+            Twitter
+          </li>
+          <li className="my-2">
+            <FaLinkedin className="mx-2 linkdin" />
+            Linkedin
+          </li>
+          <li className="my-2">
+            <FaYoutube className="mx-2 youtube" />
+            YouTube
+          </li>
         </ul>
       </div>
     </div>

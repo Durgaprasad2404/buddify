@@ -548,6 +548,21 @@ textarea {
   border: 2px solid black;
 }
 
+.facebook {
+  color: #316FF6;
+}
+
+.instagram {
+  color: #D92E7F;
+}
+
+.linkdin {
+  color: #0A66C2;
+}
+
+.youtube {
+  color: #FF0000;
+}
 
 @media (max-width:998px) {
 
@@ -685,7 +700,6 @@ textarea {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-
   }
 
 }
