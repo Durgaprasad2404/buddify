@@ -666,6 +666,10 @@ textarea {
     padding: .4rem 1rem;
   }
 
+  .d-image {
+    height: 50vh;
+  }
+
   .user-img {
     height: 150px;
     width: 100%;
