@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <>
       <BrowserRouter>
-        <div className="main-container">
+        <div className="main-container fixed-top">
           <nav className="nav-container">
             <div>
               <img src="./images/buddify.png" alt="#" className="logo" />
